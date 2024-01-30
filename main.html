@@ -1,0 +1,63 @@
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BilgeAdam</title>
+  <link rel="stylesheet" href="style.css" />
+ </head>
+ <body>
+  <nav class="flex">
+
+    <img src="logo.png" alt="BilgeAdamLogo" />
+
+   <div class="right">
+    <ul class="flex">
+     <li class="nav-li ">Hizmet Kataloğu</li>
+     <li class="nav-li flex">
+      <div class="flex user">GÖ</div>
+      <p>GÜLŞAH ÖZAKINCI</p>
+     </li>
+    </ul>
+   </div>
+  </nav>
+  <main>
+    <div>
+   <div class="relative">
+    <img
+     class="opacity"
+     src="hero.jpg"
+     alt="BilgeAdamBackground"
+     width="100%"
+     height="400" />
+    <div class="center">
+     <h1 class="text">Size Nasıl Yardımcı Olabiliriz?</h1>
+     <input
+      type="search"
+      id="search"
+      placeholder="Lütfen Anahtar Kelime Giriniz. Ör: email problemi"
+      onkeyup="search()" />
+    </div>
+    </div>
+  
+   <div class="flex center">
+    <div class="box light-blue">
+     <img class="margin" src="first.png" alt="icon" />
+     İstek Bildir
+    </div>
+    <div class="box green">
+     <img class="margin" src="second.png" alt="icon" />Sorun Bildir
+    </div>
+    <div class="box red">
+     <img class="margin" src="third.png" alt="icon" />Tüm Kayıtlarım
+    </div>
+   </div>
+   <div class="abc flex ">
+    Duyurular
+   </div>
+   <div class="autocomplete" id="autocomplete-results"></div>
+  </div>
+  </main>
+
+  <script src="script.js"></script>
+ </body>
+</html>
